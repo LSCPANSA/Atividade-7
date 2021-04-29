@@ -1,0 +1,47 @@
+programa
+{
+	
+//Exercicio 7
+	
+	funcao inicio()
+	{
+		inteiro listaImpares[5]
+		para(inteiro i=0; i < 5; i++){
+			escreva("Por favor insira um numero ímpar : ")
+			leia(listaImpares[i])
+			limpa()
+			enquanto(listaImpares[i] % 2 == 0){
+				escreva("Desculpe só aceito numeros ímpares, tente de novo:  ")
+				leia(listaImpares[i])
+
+		    }
+		}
+
+		inteiro listaPares[5]
+
+		para(inteiro i=0; i < 5; i++){
+			escreva("Por favor insira um numero par : ")
+			leia(listaPares[i])
+			limpa()
+			enquanto(listaPares[i] % 2 != 0){
+				escreva("Agora é numero par, os ímpares já foram, tente novamente : ")
+				leia(listaPares[i])
+			}
+		}
+
+		inteiro listaInt[10]
+		inteiro al = 0
+
+		para(inteiro i=0; i < 10; i++){
+			     listaInt[i] = listaImpares[al]
+				i = i+1
+				listaInt[i] = listaPares[al]
+				al = al+1
+
+		        }
+		para(inteiro i=0; i < 10; i++){
+			escreva(listaInt[i], " ")
+
+		}
+	}
+}
