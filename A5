@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro n1, n2, n3, n4, n5, n6, n7, n8, n9, n10	
+
+		escreva("Diga-me 10 numeros inteiros por favor: ")
+		leia(n1, n2, n3, n4, n5, n6, n7, n8, n9, n10)
+
+		inteiro numeros[10] = {n1, n2, n3, n4, n5, n6, n7, n8, n9, n10}
+
+		para(inteiro i=0; i < 10; i++){
+
+			se(numeros[i] % 2 == 0){
+
+				escreva("O numero da posicao ", i, " cujo é: ", numeros[i], ", é par", "\n")
+
+		    }
+		}
+	} 
+}
