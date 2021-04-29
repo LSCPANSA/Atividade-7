@@ -1,0 +1,31 @@
+programa
+{
+	inclua biblioteca Util
+	
+	funcao inicio()
+	{
+		real n1, n2, n3, n4
+
+		escreva("Digite a suas notas de todos os bimestres: ")
+		leia(n1, n2, n3, n4)
+
+		escreva("\n", "\n")
+
+		real notas[4] = {n1, n2, n3, n4}
+
+		para(inteiro i=0; i < 4; i++){
+
+			escreva("Suas notas: ", notas[i], "\n")
+
+		}
+		
+		escreva("\n", "\n")
+
+		real media = (n1 + n2 + n3 + n4) / 4
+		
+		escreva("Sua média: ", media, "\n")
+	
+		
+		
+	}
+}
