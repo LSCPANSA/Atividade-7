@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	  
+inteiro num1, num2, num3, num4, num5 = 0
+
+	  escreva("Digite cinco numeros inteiros: ")
+	  leia(num1, num2, num3, num4, num5)
+
+	  escreva("\n", "\n", "\n")
+
+	  inteiro numeros [5] = {num1, num2, num3, num4, num5}
+
+	  para(inteiro i=0; i < 5; i++){
+
+	  	escreva(numeros[i], "\n")
+
+		}
+	  
+	}
+}
