@@ -1,0 +1,21 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real num1, num2, num3, num4, num5, num6, num7, num8, num9, num10 = 0.0
+
+		escreva("Digite um número: ")
+		leia(num1, num2, num3, num4, num5, num6, num7, num8, num8, num9, num10)
+
+		escreva("\n", "\n", "\n")
+
+		real numeros [10] = {num1, num2, num3, num4, num5, num6, num7, num8, num9, num10}
+
+		para(inteiro i = 9; i > 0 ; i--){
+
+			escreva(numeros[i], "\n")
+
+		}
+	}
+}
