@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro numeros[3][5]
+
+		para(inteiro i=0; i < 3; i++){
+			para(inteiro l=0; l < 5; l++){
+
+				escreva("Por favor insira 15 numeros inteiros: ")
+				leia(numeros[i][l])
+                limpa()
+			}
+		}
+
+		para(inteiro i=0; i < 3; i++){
+			para(inteiro l=0; l < 5; l++){
+				
+				se(numeros[i][l] % 2 == 0){
+
+					escreva(numeros[i][l], " é par e está localizado na linha ", i, " e na coluna ", l, "\n")
+					
+				} 
+				
+		     }
+		     
+		}
+		
+	}
+}
