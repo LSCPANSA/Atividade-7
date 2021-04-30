@@ -1,10 +1,6 @@
 
 programa
 {
-	
-	
-/*Exercicio 11)*/
-	
 	funcao inicio()
 	{
 		cadeia procurado [3][3] = {
