@@ -1,1 +1,30 @@
 
+programa
+{
+	
+	
+/*Exercicio 11)*/
+	
+	funcao inicio()
+	{
+		cadeia procurado [3][3] = {
+		{"Wesley", "batman", "RK800"},
+		{"Walter", "lucas", "Leviathan"},
+		{"jaoo", "Wally", "Steve"}
+		
+		}
+
+		para(inteiro i = 0; i < 3; i++){
+			para(inteiro l = 0; l < 3; l++){
+
+				se(procurado[i][l] == "Wally"){
+
+					escreva("Wally está na MATRIZ! \n\n")
+					escreva(procurado[i][l], " está na linha ",i++, " e na coluna ", l++, "\n")
+
+		               
+		          }
+               }
+		}
+	}
+}
